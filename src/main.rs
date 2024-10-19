@@ -5,5 +5,6 @@ fn main() {
     let number_string: String = number.to_string();
     let string_number: i32 = string.parse().unwrap();
 
-    println!("Hello, world!");
+    println!("from number to string: {}", number_string);
+    println!("from string to number: {}", string_number);
 }
